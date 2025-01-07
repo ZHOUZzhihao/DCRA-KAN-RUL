@@ -18,11 +18,11 @@ The training program is not available at this time because the content has not y
 ## Testing
 Run "main.py" directly, and then you can see the predicted RMSE, Score.
 Take FD002 for example.The model structure and indicators are shown below
-![FD002_output.png](FD002_output.png)
+![FD002_output.png](images/FD002_output.png)
 The prediction results for all test engines are shown below.
-![FD002_results.png](FD002_results.png)
+![FD002_results.png](images/FD002_results.png)
 The results of the degradation feature visualization are shown below
-![Degradation feature.png](Degradation feature.png)
+![Degradation feature.png](images/Degradation feature.png)
 
 ## Environment Details
 ```
