@@ -19,11 +19,11 @@ The training program is not available at this time because the content has not y
 Run "main.py" directly, and then you can see the predicted RMSE, Score.
 Take FD002 for example.The model structure and indicators are shown below
 
-![images/FD002_output.png](https://github.com/ZHOUZzhihao/DCRA-KAN-RUL/blob/main/images/Degradation%20feature.png)
+![images/FD002_output.png](https://github.com/ZHOUZzhihao/DCRA-KAN-RUL/blob/main/images/FD002_output.png)
 
 The prediction results for all test engines are shown below.
 
-![FD002_results.png](images/FD002_results.png)
+![FD002_results.png](https://github.com/ZHOUZzhihao/DCRA-KAN-RUL/blob/main/images/FD002_results.png)
 
 The results of the degradation feature visualization are shown below
 
