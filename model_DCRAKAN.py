@@ -301,10 +301,10 @@ class FixedPositionalEncoding(nn.Module):
 
 #TODO: DCRA enhanced KAN model
 class DCNNKAN(nn.Module):
-    def __init__(self,in_channel,out_channel=64,att=3):
+    def __init__(self,in_channel,out_channel,att):
         super(DCNNKAN, self).__init__()
         # self.attention = GAM_Attention(15, 15, 4)
-        self.conv1 = InvertedResidual(in_channel, 32, att, stride=1)
+        self.conv1 = InvertedResidual(in_channel, 32, att=3, stride=1)
         self.pool1 = nn.MaxPool2d(2,2)
         self.dropout = nn.Dropout(p=0.25)
         self.conv2 = InvertedResidual(32, out_channel,att, stride=1)
