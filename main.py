@@ -31,7 +31,7 @@ if __name__ == "__main__":
     parser.add_argument('--batch_size', type=int, default=30, help='batch size')#
     parser.add_argument('--win', type=float, default=9, help='channels for 2DCNN')
     parser.add_argument('--att', type=float, default=8, help='attition for 2DCNN')
-    parser.add_argument('--LR', type=float, default=0.0008, help='learning_rate')#
+    parser.add_argument('--LR', type=float, default=0.0005, help='learning_rate')#
     parser.add_argument('--smooth_param', type=float, default=0.15, help='none or freq')
     parser.add_argument('--train_seq_len', type=int, default=30, help='train_seq_len')
     parser.add_argument('--test_seq_len', type=int, default=30, help='test_seq_len')
